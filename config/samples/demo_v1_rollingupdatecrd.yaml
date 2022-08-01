@@ -1,6 +1,7 @@
 apiVersion: demo.roll.io/v1
 kind: RollingUpdateCrd
 metadata:
-  name: rollingupdatecrd-sample
+  name: nju17
 spec:
+  deploymentName: cloud-native
   # TODO(user): Add fields here
