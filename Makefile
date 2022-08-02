@@ -112,8 +112,8 @@ $(LOCALBIN):
 
 
 ## Tool Binaries
-KUSTOMIZE ?= $(LOCALBIN)/kustomize
-CONTROLLER_GEN ?= $(LOCALBIN)/controller-gen
+KUSTOMIZE = bin/kustomize
+CONTROLLER_GEN = bin/controller-gen
 ENVTEST ?= $(LOCALBIN)/setup-envtest
 
 ## Tool Versions
